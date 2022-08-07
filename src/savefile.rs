@@ -23,6 +23,7 @@ pub enum SavefileEntryValue {
 
 #[derive(Clone, Debug, PartialEq)]
 #[cfg_attr(feature = "serde", derive(Serialize, Deserialize))]
+#[cfg_attr(feature = "serde", serde(tag = "type", content = "content"))]
 pub enum ListEntry {
     WithKey {
         key: SavefileEntryValue,

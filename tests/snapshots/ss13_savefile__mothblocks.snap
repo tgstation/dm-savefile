@@ -135,959 +135,1096 @@ directories:
     key_bindings:
       type: AssocList
       content:
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: deadmin
             value:
               type: FlatList
               content: []
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: readmin
             value:
               type: FlatList
               content: []
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: toggle_move_intent_alt
             value:
               type: FlatList
               content: []
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: blush
             value:
               type: FlatList
               content: []
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: bow
             value:
               type: FlatList
               content: []
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: burp
             value:
               type: FlatList
               content: []
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: choke
             value:
               type: FlatList
               content: []
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: cross
             value:
               type: FlatList
               content: []
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: chuckle
             value:
               type: FlatList
               content: []
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: collapse
             value:
               type: FlatList
               content: []
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: cough
             value:
               type: FlatList
               content: []
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: dance
             value:
               type: FlatList
               content: []
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: drool
             value:
               type: FlatList
               content: []
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: faint
             value:
               type: FlatList
               content: []
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: aflap
             value:
               type: FlatList
               content: []
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: flap
             value:
               type: FlatList
               content: []
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: frown
             value:
               type: FlatList
               content: []
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: gag
             value:
               type: FlatList
               content: []
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: gasp
             value:
               type: FlatList
               content: []
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: giggle
             value:
               type: FlatList
               content: []
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: glare
             value:
               type: FlatList
               content: []
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: grin
             value:
               type: FlatList
               content: []
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: groan
             value:
               type: FlatList
               content: []
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: grimace
             value:
               type: FlatList
               content: []
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: jump
             value:
               type: FlatList
               content: []
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: kiss
             value:
               type: FlatList
               content: []
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: laugh
             value:
               type: FlatList
               content: []
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: look
             value:
               type: FlatList
               content: []
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: point
             value:
               type: FlatList
               content: []
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: pout
             value:
               type: FlatList
               content: []
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: scream
             value:
               type: FlatList
               content: []
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: scowl
             value:
               type: FlatList
               content: []
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: shake
             value:
               type: FlatList
               content: []
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: shiver
             value:
               type: FlatList
               content: []
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: sigh
             value:
               type: FlatList
               content: []
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: sit
             value:
               type: FlatList
               content: []
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: smile
             value:
               type: FlatList
               content: []
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: sneeze
             value:
               type: FlatList
               content: []
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: smug
             value:
               type: FlatList
               content: []
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: sniff
             value:
               type: FlatList
               content: []
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: snore
             value:
               type: FlatList
               content: []
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: stare
             value:
               type: FlatList
               content: []
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: stretch
             value:
               type: FlatList
               content: []
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: sulk
             value:
               type: FlatList
               content: []
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: surrender
             value:
               type: FlatList
               content: []
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: sway
             value:
               type: FlatList
               content: []
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: tremble
             value:
               type: FlatList
               content: []
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: twitch
             value:
               type: FlatList
               content: []
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: twitch_s
             value:
               type: FlatList
               content: []
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: whimper
             value:
               type: FlatList
               content: []
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: wsmile
             value:
               type: FlatList
               content: []
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: yawn
             value:
               type: FlatList
               content: []
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: gurgle
             value:
               type: FlatList
               content: []
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: me
             value:
               type: FlatList
               content: []
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: help
             value:
               type: FlatList
               content: []
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: airguitar
             value:
               type: FlatList
               content: []
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: blink
             value:
               type: FlatList
               content: []
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: blink_r
             value:
               type: FlatList
               content: []
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: gnarl
             value:
               type: FlatList
               content: []
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: moan
             value:
               type: FlatList
               content: []
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: roll
             value:
               type: FlatList
               content: []
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: scratch
             value:
               type: FlatList
               content: []
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: screech
             value:
               type: FlatList
               content: []
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: signal
             value:
               type: FlatList
               content: []
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: sign
             value:
               type: FlatList
               content: []
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: tail
             value:
               type: FlatList
               content: []
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: wink
             value:
               type: FlatList
               content: []
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: circle
             value:
               type: FlatList
               content: []
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: slap
             value:
               type: FlatList
               content: []
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: cry
             value:
               type: FlatList
               content: []
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: dap
             value:
               type: FlatList
               content: []
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: eyebrow
             value:
               type: FlatList
               content: []
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: grumble
             value:
               type: FlatList
               content: []
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: handshake
             value:
               type: FlatList
               content: []
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: hug
             value:
               type: FlatList
               content: []
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: mumble
             value:
               type: FlatList
               content: []
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: pale
             value:
               type: FlatList
               content: []
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: raise
             value:
               type: FlatList
               content: []
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: salute
             value:
               type: FlatList
               content: []
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: shrug
             value:
               type: FlatList
               content: []
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: wag
             value:
               type: FlatList
               content: []
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: wing
             value:
               type: FlatList
               content: []
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: hiss
             value:
               type: FlatList
               content: []
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: roar
             value:
               type: FlatList
               content: []
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: beep
             value:
               type: FlatList
               content: []
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: inhale
             value:
               type: FlatList
               content: []
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: exhale
             value:
               type: FlatList
               content: []
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: alarm
             value:
               type: FlatList
               content: []
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: alert
             value:
               type: FlatList
               content: []
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: flash
             value:
               type: FlatList
               content: []
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: notice
             value:
               type: FlatList
               content: []
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: whistle
             value:
               type: FlatList
               content: []
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: boop
             value:
               type: FlatList
               content: []
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: buzz
             value:
               type: FlatList
               content: []
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: buzz2
             value:
               type: FlatList
               content: []
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: chime
             value:
               type: FlatList
               content: []
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: honk
             value:
               type: FlatList
               content: []
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: ping
             value:
               type: FlatList
               content: []
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: sad
             value:
               type: FlatList
               content: []
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: warn
             value:
               type: FlatList
               content: []
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: ooga
             value:
               type: FlatList
               content: []
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: bounce
             value:
               type: FlatList
               content: []
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: jiggle
             value:
               type: FlatList
               content: []
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: light
             value:
               type: FlatList
               content: []
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: vibrate
             value:
               type: FlatList
               content: []
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: moodsneaky
             value:
               type: FlatList
               content: []
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: moodsmile
             value:
               type: FlatList
               content: []
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: moodcat
             value:
               type: FlatList
               content: []
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: moodpout
             value:
               type: FlatList
               content: []
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: moodsad
             value:
               type: FlatList
               content: []
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: moodangry
             value:
               type: FlatList
               content: []
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: moodnone
             value:
               type: FlatList
               content: []
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: veryhappy
             value:
               type: FlatList
               content: []
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: happy
             value:
               type: FlatList
               content: []
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: neutral
             value:
               type: FlatList
               content: []
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: unsure
             value:
               type: FlatList
               content: []
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: confused
             value:
               type: FlatList
               content: []
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: bsod
             value:
               type: FlatList
               content: []
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: trollface
             value:
               type: FlatList
               content: []
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: awesome
             value:
               type: FlatList
               content: []
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: dorfy
             value:
               type: FlatList
               content: []
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: thinking
             value:
               type: FlatList
               content: []
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: facepalm
             value:
               type: FlatList
               content: []
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: friendcomputer
             value:
               type: FlatList
               content: []
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: blueglow
             value:
               type: FlatList
               content: []
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: redglow
             value:
               type: FlatList
               content: []
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: blank
             value:
               type: FlatList
               content: []
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: enable_combat_mode
             value:
               type: FlatList
               content: []
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: disable_combat_mode
             value:
               type: FlatList
               content: []
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: flip
             value:
               type: FlatList
               content: []
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: spin
             value:
               type: FlatList
               content: []
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: clap
             value:
               type: FlatList
               content: []
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: Downwards
             value:
               type: FlatList
               content: []
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: Upwards
             value:
               type: FlatList
               content: []
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: slowclap
             value:
               type: FlatList
               content: []
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: tilt
             value:
               type: FlatList
               content: []
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: target_r_arm
@@ -1096,7 +1233,8 @@ directories:
               content:
                 - type: String
                   content: Numpad4
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: admin_say
@@ -1105,7 +1243,8 @@ directories:
               content:
                 - type: String
                   content: F3
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: admin_ghost
@@ -1114,7 +1253,8 @@ directories:
               content:
                 - type: String
                   content: F5
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: player_panel_new
@@ -1123,7 +1263,8 @@ directories:
               content:
                 - type: String
                   content: F6
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: toggle_buildmode_self
@@ -1132,7 +1273,8 @@ directories:
               content:
                 - type: String
                   content: F7
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: stealth_mode
@@ -1141,7 +1283,8 @@ directories:
               content:
                 - type: String
                   content: CtrlF8
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: invisimin
@@ -1150,7 +1293,8 @@ directories:
               content:
                 - type: String
                   content: F8
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: dsay
@@ -1159,7 +1303,8 @@ directories:
               content:
                 - type: String
                   content: F10
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: toggle_throw_mode
@@ -1168,7 +1313,8 @@ directories:
               content:
                 - type: String
                   content: R
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: wave
@@ -1177,7 +1323,8 @@ directories:
               content:
                 - type: String
                   content: Southwest
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: module_one
@@ -1186,7 +1333,8 @@ directories:
               content:
                 - type: String
                   content: "1"
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: quick_equip_bag
@@ -1197,7 +1345,8 @@ directories:
                   content: "1"
                 - type: String
                   content: ShiftB
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: module_two
@@ -1206,7 +1355,8 @@ directories:
               content:
                 - type: String
                   content: "2"
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: quick_equip_belt
@@ -1217,7 +1367,8 @@ directories:
                   content: "2"
                 - type: String
                   content: ShiftE
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: module_three
@@ -1226,7 +1377,8 @@ directories:
               content:
                 - type: String
                   content: "3"
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: quick_equip_suit_storage
@@ -1237,7 +1389,8 @@ directories:
                   content: "3"
                 - type: String
                   content: ShiftQ
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: toggle_combat_mode
@@ -1248,7 +1401,8 @@ directories:
                   content: "4"
                 - type: String
                   content: F
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: admin_help
@@ -1257,7 +1411,8 @@ directories:
               content:
                 - type: String
                   content: F1
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: screenshot
@@ -1266,7 +1421,8 @@ directories:
               content:
                 - type: String
                   content: F2
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: minimal_hud
@@ -1275,7 +1431,8 @@ directories:
               content:
                 - type: String
                   content: F12
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: quick_equip
@@ -1284,7 +1441,8 @@ directories:
               content:
                 - type: String
                   content: E
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: resist
@@ -1293,7 +1451,8 @@ directories:
               content:
                 - type: String
                   content: B
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: stop_pulling
@@ -1304,7 +1463,8 @@ directories:
                   content: H
                 - type: String
                   content: Delete
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: swap_hands
@@ -1313,7 +1473,8 @@ directories:
               content:
                 - type: String
                   content: X
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: activate_inhand
@@ -1322,7 +1483,8 @@ directories:
               content:
                 - type: String
                   content: Z
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: drop_item
@@ -1331,7 +1493,8 @@ directories:
               content:
                 - type: String
                   content: Q
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: unequip_module
@@ -1340,7 +1503,8 @@ directories:
               content:
                 - type: String
                   content: Q
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: target_head_cycle
@@ -1349,7 +1513,8 @@ directories:
               content:
                 - type: String
                   content: Numpad8
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: target_body_chest
@@ -1358,7 +1523,8 @@ directories:
               content:
                 - type: String
                   content: Numpad5
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: target_left_arm
@@ -1367,7 +1533,8 @@ directories:
               content:
                 - type: String
                   content: Numpad6
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: target_right_leg
@@ -1376,7 +1543,8 @@ directories:
               content:
                 - type: String
                   content: Numpad1
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: target_body_groin
@@ -1385,7 +1553,8 @@ directories:
               content:
                 - type: String
                   content: Numpad2
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: target_left_leg
@@ -1394,7 +1563,8 @@ directories:
               content:
                 - type: String
                   content: Numpad3
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: North
@@ -1405,7 +1575,8 @@ directories:
                   content: W
                 - type: String
                   content: North
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: South
@@ -1416,7 +1587,8 @@ directories:
                   content: S
                 - type: String
                   content: South
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: West
@@ -1427,7 +1599,8 @@ directories:
                   content: A
                 - type: String
                   content: West
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: East
@@ -1438,7 +1611,8 @@ directories:
                   content: D
                 - type: String
                   content: East
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: Give_Item
@@ -1447,7 +1621,8 @@ directories:
               content:
                 - type: String
                   content: G
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: Say
@@ -1456,7 +1631,8 @@ directories:
               content:
                 - type: String
                   content: T
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: OOC
@@ -1465,7 +1641,8 @@ directories:
               content:
                 - type: String
                   content: O
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: Me
@@ -1474,7 +1651,8 @@ directories:
               content:
                 - type: String
                   content: M
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: look up
@@ -1483,7 +1661,8 @@ directories:
               content:
                 - type: String
                   content: L
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: look down
@@ -1492,7 +1671,8 @@ directories:
               content:
                 - type: String
                   content: ;
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: target_eyes
@@ -1501,7 +1681,8 @@ directories:
               content:
                 - type: String
                   content: Numpad7
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: target_mouths
@@ -1510,7 +1691,8 @@ directories:
               content:
                 - type: String
                   content: Numpad9
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: hold_throw_mode
@@ -1519,7 +1701,8 @@ directories:
               content:
                 - type: String
                   content: Space
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: nod
@@ -1528,7 +1711,8 @@ directories:
               content:
                 - type: String
                   content: Northwest
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: crack
@@ -1537,7 +1721,8 @@ directories:
               content:
                 - type: String
                   content: "9"
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: noogie
@@ -1546,7 +1731,8 @@ directories:
               content:
                 - type: String
                   content: Southeast
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: rest
@@ -1555,7 +1741,8 @@ directories:
               content:
                 - type: String
                   content: "`"
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: toggle_move_intent
@@ -1564,7 +1751,8 @@ directories:
               content:
                 - type: String
                   content: C
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: deathgasp
@@ -1573,7 +1761,8 @@ directories:
               content:
                 - type: String
                   content: "\\"
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: block_movement
@@ -1582,14 +1771,16 @@ directories:
               content:
                 - type: String
                   content: V
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: swear
             value:
               type: FlatList
               content: []
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: view_tags
@@ -1598,7 +1789,8 @@ directories:
               content:
                 - type: String
                   content: F9
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: Radio
@@ -1607,14 +1799,16 @@ directories:
               content:
                 - type: String
                   content: Y
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: tunesing
             value:
               type: FlatList
               content: []
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: clear
@@ -1880,154 +2074,176 @@ directories:
     job_preferences:
       type: AssocList
       content:
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: Cook
             value:
               type: Number
               content: 1.0
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: Medical Doctor
             value:
               type: Number
               content: 3.0
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: Virologist
             value:
               type: Number
               content: 1.0
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: Chemist
             value:
               type: Number
               content: 1.0
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: Paramedic
             value:
               type: Number
               content: 2.0
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: Scientist
             value:
               type: Number
               content: 2.0
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: Psychologist
             value:
               type: Number
               content: 1.0
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: Roboticist
             value:
               type: Number
               content: 2.0
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: Geneticist
             value:
               type: Number
               content: 1.0
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: Warden
             value:
               type: Number
               content: 2.0
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: Detective
             value:
               type: Number
               content: 2.0
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: Security Officer
             value:
               type: Number
               content: 2.0
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: Chaplain
             value:
               type: Number
               content: 1.0
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: Lawyer
             value:
               type: Number
               content: 1.0
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: Curator
             value:
               type: Number
               content: 1.0
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: Botanist
             value:
               type: Number
               content: 1.0
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: Bartender
             value:
               type: Number
               content: 1.0
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: Shaft Miner
             value:
               type: Number
               content: 1.0
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: Cargo Technician
             value:
               type: Number
               content: 1.0
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: Quartermaster
             value:
               type: Number
               content: 2.0
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: Station Engineer
             value:
               type: Number
               content: 2.0
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: Atmospheric Technician
@@ -2099,91 +2315,104 @@ directories:
     randomise:
       type: AssocList
       content:
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: backpack
             value:
               type: Number
               content: 3.0
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: eye_color
             value:
               type: Number
               content: 3.0
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: facial_hair_color
             value:
               type: Number
               content: 3.0
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: facial_hairstyle
             value:
               type: Number
               content: 3.0
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: hair_color
             value:
               type: Number
               content: 3.0
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: hairstyle
             value:
               type: Number
               content: 3.0
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: jumpsuit_style
             value:
               type: Number
               content: 3.0
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: skin_tone
             value:
               type: Number
               content: 3.0
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: socks
             value:
               type: Number
               content: 3.0
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: undershirt
             value:
               type: Number
               content: 3.0
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: underwear
             value:
               type: Number
               content: 3.0
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: underwear_color
             value:
               type: Number
               content: 3.0
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: species
@@ -2338,84 +2567,96 @@ directories:
     job_preferences:
       type: AssocList
       content:
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: Atmospheric Technician
             value:
               type: Number
               content: 1.0
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: Bartender
             value:
               type: Number
               content: 1.0
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: Cargo Technician
             value:
               type: Number
               content: 1.0
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: Chemist
             value:
               type: Number
               content: 1.0
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: Cook
             value:
               type: Number
               content: 1.0
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: Cyborg
             value:
               type: Number
               content: 2.0
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: Janitor
             value:
               type: Number
               content: 1.0
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: Medical Doctor
             value:
               type: Number
               content: 3.0
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: Roboticist
             value:
               type: Number
               content: 1.0
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: Scientist
             value:
               type: Number
               content: 1.0
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: Shaft Miner
             value:
               type: Number
               content: 1.0
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: Station Engineer
@@ -2458,98 +2699,112 @@ directories:
     randomise:
       type: AssocList
       content:
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: age
             value:
               type: Number
               content: 3.0
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: backpack
             value:
               type: Number
               content: 3.0
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: eye_color
             value:
               type: Number
               content: 3.0
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: facial_hair_color
             value:
               type: Number
               content: 3.0
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: facial_hairstyle
             value:
               type: Number
               content: 3.0
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: gender
             value:
               type: Number
               content: 3.0
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: hair_color
             value:
               type: Number
               content: 3.0
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: hairstyle
             value:
               type: Number
               content: 3.0
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: jumpsuit_style
             value:
               type: Number
               content: 3.0
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: skin_tone
             value:
               type: Number
               content: 3.0
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: socks
             value:
               type: Number
               content: 3.0
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: undershirt
             value:
               type: Number
               content: 3.0
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: underwear
             value:
               type: Number
               content: 3.0
-        - WithKey:
+        - type: WithKey
+          content:
             key:
               type: String
               content: underwear_color
