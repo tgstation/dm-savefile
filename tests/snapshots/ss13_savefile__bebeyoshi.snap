@@ -1,0 +1,3838 @@
+---
+source: tests/ss13_savefile.rs
+assertion_line: 11
+expression: "dm_savefile::extract_savefile(&include_bytes!(\"./savefiles/bebeyoshi.sav\")[..]).unwrap()"
+---
+directories:
+  "":
+    UI_style:
+      type: String
+      content: Midnight
+    ambientocclusion:
+      type: Number
+      content: 0.0
+    asaycolor:
+      type: String
+      content: "#996600"
+    auto_fit_viewport:
+      type: Number
+      content: 1.0
+    be_special:
+      type: FlatList
+      content:
+        - type: String
+          content: pAI
+        - type: String
+          content: Sentience Potion Spawn
+        - type: String
+          content: Gangster
+        - type: String
+          content: Family Head Aspirant
+    brief_outfit:
+      type: Typepath
+      content: /datum/outfit/hotelstaff
+    broadcast_login_logout:
+      type: Number
+      content: 1.0
+    buttons_locked:
+      type: Number
+      content: 0.0
+    bypass_deadmin_in_centcom:
+      type: Number
+      content: 1.0
+    chat_on_map:
+      type: Number
+      content: 1.0
+    chat_toggles:
+      type: Number
+      content: 1907.0
+    clientfps:
+      type: Number
+      content: -1.0
+    darkened_flash:
+      type: Number
+      content: 0.0
+    default_slot:
+      type: Number
+      content: 1.0
+    enable_tips:
+      type: Number
+      content: 0.0
+    fast_mc_refresh:
+      type: Number
+      content: 0.0
+    favorite_outfits:
+      type: FlatList
+      content: []
+    fov_darkness:
+      type: Number
+      content: 255.0
+    ghost_accs:
+      type: Number
+      content: 100.0
+    ghost_form:
+      type: String
+      content: ghost_mellow
+    ghost_hud:
+      type: Number
+      content: 1.0
+    ghost_lighting:
+      type: String
+      content: Darker
+    ghost_orbit:
+      type: String
+      content: pentagon
+    ghost_others:
+      type: Number
+      content: 100.0
+    ghost_roles:
+      type: Number
+      content: 1.0
+    ghost_roles_as_admin:
+      type: Number
+      content: 1.0
+    hearted_until:
+      type: "Null"
+    hotkeys:
+      type: Number
+      content: 1.0
+    ignoring:
+      type: FlatList
+      content: []
+    inquisitive_ghost:
+      type: Number
+      content: 1.0
+    itemoutline_pref:
+      type: Number
+      content: 0.0
+    joblessrole:
+      type: Number
+      content: 3.0
+    key_bindings:
+      type: AssocList
+      content:
+        - WithKey:
+            key:
+              type: String
+              content: deadmin
+            value:
+              type: FlatList
+              content: []
+        - WithKey:
+            key:
+              type: String
+              content: readmin
+            value:
+              type: FlatList
+              content: []
+        - WithKey:
+            key:
+              type: String
+              content: toggle_move_intent_alt
+            value:
+              type: FlatList
+              content: []
+        - WithKey:
+            key:
+              type: String
+              content: flip
+            value:
+              type: FlatList
+              content: []
+        - WithKey:
+            key:
+              type: String
+              content: spin
+            value:
+              type: FlatList
+              content: []
+        - WithKey:
+            key:
+              type: String
+              content: blush
+            value:
+              type: FlatList
+              content: []
+        - WithKey:
+            key:
+              type: String
+              content: bow
+            value:
+              type: FlatList
+              content: []
+        - WithKey:
+            key:
+              type: String
+              content: burp
+            value:
+              type: FlatList
+              content: []
+        - WithKey:
+            key:
+              type: String
+              content: choke
+            value:
+              type: FlatList
+              content: []
+        - WithKey:
+            key:
+              type: String
+              content: cross
+            value:
+              type: FlatList
+              content: []
+        - WithKey:
+            key:
+              type: String
+              content: chuckle
+            value:
+              type: FlatList
+              content: []
+        - WithKey:
+            key:
+              type: String
+              content: collapse
+            value:
+              type: FlatList
+              content: []
+        - WithKey:
+            key:
+              type: String
+              content: cough
+            value:
+              type: FlatList
+              content: []
+        - WithKey:
+            key:
+              type: String
+              content: dance
+            value:
+              type: FlatList
+              content: []
+        - WithKey:
+            key:
+              type: String
+              content: deathgasp
+            value:
+              type: FlatList
+              content: []
+        - WithKey:
+            key:
+              type: String
+              content: drool
+            value:
+              type: FlatList
+              content: []
+        - WithKey:
+            key:
+              type: String
+              content: faint
+            value:
+              type: FlatList
+              content: []
+        - WithKey:
+            key:
+              type: String
+              content: aflap
+            value:
+              type: FlatList
+              content: []
+        - WithKey:
+            key:
+              type: String
+              content: flap
+            value:
+              type: FlatList
+              content: []
+        - WithKey:
+            key:
+              type: String
+              content: frown
+            value:
+              type: FlatList
+              content: []
+        - WithKey:
+            key:
+              type: String
+              content: gag
+            value:
+              type: FlatList
+              content: []
+        - WithKey:
+            key:
+              type: String
+              content: gasp
+            value:
+              type: FlatList
+              content: []
+        - WithKey:
+            key:
+              type: String
+              content: giggle
+            value:
+              type: FlatList
+              content: []
+        - WithKey:
+            key:
+              type: String
+              content: glare
+            value:
+              type: FlatList
+              content: []
+        - WithKey:
+            key:
+              type: String
+              content: grin
+            value:
+              type: FlatList
+              content: []
+        - WithKey:
+            key:
+              type: String
+              content: groan
+            value:
+              type: FlatList
+              content: []
+        - WithKey:
+            key:
+              type: String
+              content: grimace
+            value:
+              type: FlatList
+              content: []
+        - WithKey:
+            key:
+              type: String
+              content: jump
+            value:
+              type: FlatList
+              content: []
+        - WithKey:
+            key:
+              type: String
+              content: kiss
+            value:
+              type: FlatList
+              content: []
+        - WithKey:
+            key:
+              type: String
+              content: laugh
+            value:
+              type: FlatList
+              content: []
+        - WithKey:
+            key:
+              type: String
+              content: look
+            value:
+              type: FlatList
+              content: []
+        - WithKey:
+            key:
+              type: String
+              content: nod
+            value:
+              type: FlatList
+              content: []
+        - WithKey:
+            key:
+              type: String
+              content: point
+            value:
+              type: FlatList
+              content: []
+        - WithKey:
+            key:
+              type: String
+              content: pout
+            value:
+              type: FlatList
+              content: []
+        - WithKey:
+            key:
+              type: String
+              content: scream
+            value:
+              type: FlatList
+              content: []
+        - WithKey:
+            key:
+              type: String
+              content: scowl
+            value:
+              type: FlatList
+              content: []
+        - WithKey:
+            key:
+              type: String
+              content: shake
+            value:
+              type: FlatList
+              content: []
+        - WithKey:
+            key:
+              type: String
+              content: shiver
+            value:
+              type: FlatList
+              content: []
+        - WithKey:
+            key:
+              type: String
+              content: sigh
+            value:
+              type: FlatList
+              content: []
+        - WithKey:
+            key:
+              type: String
+              content: sit
+            value:
+              type: FlatList
+              content: []
+        - WithKey:
+            key:
+              type: String
+              content: smile
+            value:
+              type: FlatList
+              content: []
+        - WithKey:
+            key:
+              type: String
+              content: sneeze
+            value:
+              type: FlatList
+              content: []
+        - WithKey:
+            key:
+              type: String
+              content: smug
+            value:
+              type: FlatList
+              content: []
+        - WithKey:
+            key:
+              type: String
+              content: sniff
+            value:
+              type: FlatList
+              content: []
+        - WithKey:
+            key:
+              type: String
+              content: snore
+            value:
+              type: FlatList
+              content: []
+        - WithKey:
+            key:
+              type: String
+              content: stare
+            value:
+              type: FlatList
+              content: []
+        - WithKey:
+            key:
+              type: String
+              content: stretch
+            value:
+              type: FlatList
+              content: []
+        - WithKey:
+            key:
+              type: String
+              content: sulk
+            value:
+              type: FlatList
+              content: []
+        - WithKey:
+            key:
+              type: String
+              content: surrender
+            value:
+              type: FlatList
+              content: []
+        - WithKey:
+            key:
+              type: String
+              content: sway
+            value:
+              type: FlatList
+              content: []
+        - WithKey:
+            key:
+              type: String
+              content: tremble
+            value:
+              type: FlatList
+              content: []
+        - WithKey:
+            key:
+              type: String
+              content: twitch
+            value:
+              type: FlatList
+              content: []
+        - WithKey:
+            key:
+              type: String
+              content: twitch_s
+            value:
+              type: FlatList
+              content: []
+        - WithKey:
+            key:
+              type: String
+              content: wave
+            value:
+              type: FlatList
+              content: []
+        - WithKey:
+            key:
+              type: String
+              content: whimper
+            value:
+              type: FlatList
+              content: []
+        - WithKey:
+            key:
+              type: String
+              content: wsmile
+            value:
+              type: FlatList
+              content: []
+        - WithKey:
+            key:
+              type: String
+              content: yawn
+            value:
+              type: FlatList
+              content: []
+        - WithKey:
+            key:
+              type: String
+              content: gurgle
+            value:
+              type: FlatList
+              content: []
+        - WithKey:
+            key:
+              type: String
+              content: me
+            value:
+              type: FlatList
+              content: []
+        - WithKey:
+            key:
+              type: String
+              content: help
+            value:
+              type: FlatList
+              content: []
+        - WithKey:
+            key:
+              type: String
+              content: airguitar
+            value:
+              type: FlatList
+              content: []
+        - WithKey:
+            key:
+              type: String
+              content: blink
+            value:
+              type: FlatList
+              content: []
+        - WithKey:
+            key:
+              type: String
+              content: blink_r
+            value:
+              type: FlatList
+              content: []
+        - WithKey:
+            key:
+              type: String
+              content: clap
+            value:
+              type: FlatList
+              content: []
+        - WithKey:
+            key:
+              type: String
+              content: crack
+            value:
+              type: FlatList
+              content: []
+        - WithKey:
+            key:
+              type: String
+              content: gnarl
+            value:
+              type: FlatList
+              content: []
+        - WithKey:
+            key:
+              type: String
+              content: moan
+            value:
+              type: FlatList
+              content: []
+        - WithKey:
+            key:
+              type: String
+              content: roll
+            value:
+              type: FlatList
+              content: []
+        - WithKey:
+            key:
+              type: String
+              content: scratch
+            value:
+              type: FlatList
+              content: []
+        - WithKey:
+            key:
+              type: String
+              content: screech
+            value:
+              type: FlatList
+              content: []
+        - WithKey:
+            key:
+              type: String
+              content: signal
+            value:
+              type: FlatList
+              content: []
+        - WithKey:
+            key:
+              type: String
+              content: sign
+            value:
+              type: FlatList
+              content: []
+        - WithKey:
+            key:
+              type: String
+              content: tail
+            value:
+              type: FlatList
+              content: []
+        - WithKey:
+            key:
+              type: String
+              content: wink
+            value:
+              type: FlatList
+              content: []
+        - WithKey:
+            key:
+              type: String
+              content: circle
+            value:
+              type: FlatList
+              content: []
+        - WithKey:
+            key:
+              type: String
+              content: slap
+            value:
+              type: FlatList
+              content: []
+        - WithKey:
+            key:
+              type: String
+              content: cry
+            value:
+              type: FlatList
+              content: []
+        - WithKey:
+            key:
+              type: String
+              content: dap
+            value:
+              type: FlatList
+              content: []
+        - WithKey:
+            key:
+              type: String
+              content: eyebrow
+            value:
+              type: FlatList
+              content: []
+        - WithKey:
+            key:
+              type: String
+              content: grumble
+            value:
+              type: FlatList
+              content: []
+        - WithKey:
+            key:
+              type: String
+              content: handshake
+            value:
+              type: FlatList
+              content: []
+        - WithKey:
+            key:
+              type: String
+              content: hug
+            value:
+              type: FlatList
+              content: []
+        - WithKey:
+            key:
+              type: String
+              content: mumble
+            value:
+              type: FlatList
+              content: []
+        - WithKey:
+            key:
+              type: String
+              content: pale
+            value:
+              type: FlatList
+              content: []
+        - WithKey:
+            key:
+              type: String
+              content: raise
+            value:
+              type: FlatList
+              content: []
+        - WithKey:
+            key:
+              type: String
+              content: salute
+            value:
+              type: FlatList
+              content: []
+        - WithKey:
+            key:
+              type: String
+              content: shrug
+            value:
+              type: FlatList
+              content: []
+        - WithKey:
+            key:
+              type: String
+              content: wag
+            value:
+              type: FlatList
+              content: []
+        - WithKey:
+            key:
+              type: String
+              content: wing
+            value:
+              type: FlatList
+              content: []
+        - WithKey:
+            key:
+              type: String
+              content: hiss
+            value:
+              type: FlatList
+              content: []
+        - WithKey:
+            key:
+              type: String
+              content: roar
+            value:
+              type: FlatList
+              content: []
+        - WithKey:
+            key:
+              type: String
+              content: beep
+            value:
+              type: FlatList
+              content: []
+        - WithKey:
+            key:
+              type: String
+              content: inhale
+            value:
+              type: FlatList
+              content: []
+        - WithKey:
+            key:
+              type: String
+              content: exhale
+            value:
+              type: FlatList
+              content: []
+        - WithKey:
+            key:
+              type: String
+              content: alarm
+            value:
+              type: FlatList
+              content: []
+        - WithKey:
+            key:
+              type: String
+              content: alert
+            value:
+              type: FlatList
+              content: []
+        - WithKey:
+            key:
+              type: String
+              content: flash
+            value:
+              type: FlatList
+              content: []
+        - WithKey:
+            key:
+              type: String
+              content: notice
+            value:
+              type: FlatList
+              content: []
+        - WithKey:
+            key:
+              type: String
+              content: whistle
+            value:
+              type: FlatList
+              content: []
+        - WithKey:
+            key:
+              type: String
+              content: boop
+            value:
+              type: FlatList
+              content: []
+        - WithKey:
+            key:
+              type: String
+              content: buzz
+            value:
+              type: FlatList
+              content: []
+        - WithKey:
+            key:
+              type: String
+              content: buzz2
+            value:
+              type: FlatList
+              content: []
+        - WithKey:
+            key:
+              type: String
+              content: chime
+            value:
+              type: FlatList
+              content: []
+        - WithKey:
+            key:
+              type: String
+              content: honk
+            value:
+              type: FlatList
+              content: []
+        - WithKey:
+            key:
+              type: String
+              content: ping
+            value:
+              type: FlatList
+              content: []
+        - WithKey:
+            key:
+              type: String
+              content: sad
+            value:
+              type: FlatList
+              content: []
+        - WithKey:
+            key:
+              type: String
+              content: warn
+            value:
+              type: FlatList
+              content: []
+        - WithKey:
+            key:
+              type: String
+              content: ooga
+            value:
+              type: FlatList
+              content: []
+        - WithKey:
+            key:
+              type: String
+              content: bounce
+            value:
+              type: FlatList
+              content: []
+        - WithKey:
+            key:
+              type: String
+              content: jiggle
+            value:
+              type: FlatList
+              content: []
+        - WithKey:
+            key:
+              type: String
+              content: light
+            value:
+              type: FlatList
+              content: []
+        - WithKey:
+            key:
+              type: String
+              content: vibrate
+            value:
+              type: FlatList
+              content: []
+        - WithKey:
+            key:
+              type: String
+              content: moodsneaky
+            value:
+              type: FlatList
+              content: []
+        - WithKey:
+            key:
+              type: String
+              content: moodsmile
+            value:
+              type: FlatList
+              content: []
+        - WithKey:
+            key:
+              type: String
+              content: moodcat
+            value:
+              type: FlatList
+              content: []
+        - WithKey:
+            key:
+              type: String
+              content: moodpout
+            value:
+              type: FlatList
+              content: []
+        - WithKey:
+            key:
+              type: String
+              content: moodsad
+            value:
+              type: FlatList
+              content: []
+        - WithKey:
+            key:
+              type: String
+              content: moodangry
+            value:
+              type: FlatList
+              content: []
+        - WithKey:
+            key:
+              type: String
+              content: moodnone
+            value:
+              type: FlatList
+              content: []
+        - WithKey:
+            key:
+              type: String
+              content: enable_combat_mode
+            value:
+              type: FlatList
+              content: []
+        - WithKey:
+            key:
+              type: String
+              content: disable_combat_mode
+            value:
+              type: FlatList
+              content: []
+        - WithKey:
+            key:
+              type: String
+              content: noogie
+            value:
+              type: FlatList
+              content: []
+        - WithKey:
+            key:
+              type: String
+              content: veryhappy
+            value:
+              type: FlatList
+              content: []
+        - WithKey:
+            key:
+              type: String
+              content: happy
+            value:
+              type: FlatList
+              content: []
+        - WithKey:
+            key:
+              type: String
+              content: neutral
+            value:
+              type: FlatList
+              content: []
+        - WithKey:
+            key:
+              type: String
+              content: unsure
+            value:
+              type: FlatList
+              content: []
+        - WithKey:
+            key:
+              type: String
+              content: confused
+            value:
+              type: FlatList
+              content: []
+        - WithKey:
+            key:
+              type: String
+              content: bsod
+            value:
+              type: FlatList
+              content: []
+        - WithKey:
+            key:
+              type: String
+              content: trollface
+            value:
+              type: FlatList
+              content: []
+        - WithKey:
+            key:
+              type: String
+              content: awesome
+            value:
+              type: FlatList
+              content: []
+        - WithKey:
+            key:
+              type: String
+              content: dorfy
+            value:
+              type: FlatList
+              content: []
+        - WithKey:
+            key:
+              type: String
+              content: thinking
+            value:
+              type: FlatList
+              content: []
+        - WithKey:
+            key:
+              type: String
+              content: facepalm
+            value:
+              type: FlatList
+              content: []
+        - WithKey:
+            key:
+              type: String
+              content: friendcomputer
+            value:
+              type: FlatList
+              content: []
+        - WithKey:
+            key:
+              type: String
+              content: blueglow
+            value:
+              type: FlatList
+              content: []
+        - WithKey:
+            key:
+              type: String
+              content: redglow
+            value:
+              type: FlatList
+              content: []
+        - WithKey:
+            key:
+              type: String
+              content: blank
+            value:
+              type: FlatList
+              content: []
+        - WithKey:
+            key:
+              type: String
+              content: Upwards
+            value:
+              type: FlatList
+              content: []
+        - WithKey:
+            key:
+              type: String
+              content: Downwards
+            value:
+              type: FlatList
+              content: []
+        - WithKey:
+            key:
+              type: String
+              content: tilt
+            value:
+              type: FlatList
+              content: []
+        - WithKey:
+            key:
+              type: String
+              content: admin_say
+            value:
+              type: FlatList
+              content:
+                - type: String
+                  content: F3
+        - WithKey:
+            key:
+              type: String
+              content: admin_ghost
+            value:
+              type: FlatList
+              content:
+                - type: String
+                  content: F5
+        - WithKey:
+            key:
+              type: String
+              content: player_panel_new
+            value:
+              type: FlatList
+              content:
+                - type: String
+                  content: F6
+        - WithKey:
+            key:
+              type: String
+              content: toggle_buildmode_self
+            value:
+              type: FlatList
+              content:
+                - type: String
+                  content: F7
+        - WithKey:
+            key:
+              type: String
+              content: stealth_mode
+            value:
+              type: FlatList
+              content:
+                - type: String
+                  content: CtrlF8
+        - WithKey:
+            key:
+              type: String
+              content: invisimin
+            value:
+              type: FlatList
+              content:
+                - type: String
+                  content: F8
+        - WithKey:
+            key:
+              type: String
+              content: dsay
+            value:
+              type: FlatList
+              content:
+                - type: String
+                  content: F10
+        - WithKey:
+            key:
+              type: String
+              content: toggle_throw_mode
+            value:
+              type: FlatList
+              content:
+                - type: String
+                  content: R
+                - type: String
+                  content: Southwest
+        - WithKey:
+            key:
+              type: String
+              content: module_one
+            value:
+              type: FlatList
+              content:
+                - type: String
+                  content: "1"
+        - WithKey:
+            key:
+              type: String
+              content: module_two
+            value:
+              type: FlatList
+              content:
+                - type: String
+                  content: "2"
+        - WithKey:
+            key:
+              type: String
+              content: module_three
+            value:
+              type: FlatList
+              content:
+                - type: String
+                  content: "3"
+        - WithKey:
+            key:
+              type: String
+              content: toggle_combat_mode
+            value:
+              type: FlatList
+              content:
+                - type: String
+                  content: "4"
+                - type: String
+                  content: F
+        - WithKey:
+            key:
+              type: String
+              content: admin_help
+            value:
+              type: FlatList
+              content:
+                - type: String
+                  content: F1
+        - WithKey:
+            key:
+              type: String
+              content: screenshot
+            value:
+              type: FlatList
+              content:
+                - type: String
+                  content: F2
+        - WithKey:
+            key:
+              type: String
+              content: minimal_hud
+            value:
+              type: FlatList
+              content:
+                - type: String
+                  content: F12
+        - WithKey:
+            key:
+              type: String
+              content: quick_equip
+            value:
+              type: FlatList
+              content:
+                - type: String
+                  content: E
+        - WithKey:
+            key:
+              type: String
+              content: resist
+            value:
+              type: FlatList
+              content:
+                - type: String
+                  content: B
+        - WithKey:
+            key:
+              type: String
+              content: look up
+            value:
+              type: FlatList
+              content:
+                - type: String
+                  content: L
+        - WithKey:
+            key:
+              type: String
+              content: stop_pulling
+            value:
+              type: FlatList
+              content:
+                - type: String
+                  content: H
+                - type: String
+                  content: Delete
+        - WithKey:
+            key:
+              type: String
+              content: swap_hands
+            value:
+              type: FlatList
+              content:
+                - type: String
+                  content: X
+                - type: String
+                  content: Northeast
+        - WithKey:
+            key:
+              type: String
+              content: activate_inhand
+            value:
+              type: FlatList
+              content:
+                - type: String
+                  content: Z
+                - type: String
+                  content: Southeast
+        - WithKey:
+            key:
+              type: String
+              content: drop_item
+            value:
+              type: FlatList
+              content:
+                - type: String
+                  content: Q
+        - WithKey:
+            key:
+              type: String
+              content: unequip_module
+            value:
+              type: FlatList
+              content:
+                - type: String
+                  content: Q
+        - WithKey:
+            key:
+              type: String
+              content: toggle_move_intent
+            value:
+              type: FlatList
+              content:
+                - type: String
+                  content: Alt
+        - WithKey:
+            key:
+              type: String
+              content: target_head_cycle
+            value:
+              type: FlatList
+              content:
+                - type: String
+                  content: Numpad8
+        - WithKey:
+            key:
+              type: String
+              content: target_r_arm
+            value:
+              type: FlatList
+              content:
+                - type: String
+                  content: Numpad4
+        - WithKey:
+            key:
+              type: String
+              content: target_body_chest
+            value:
+              type: FlatList
+              content:
+                - type: String
+                  content: Numpad5
+        - WithKey:
+            key:
+              type: String
+              content: target_left_arm
+            value:
+              type: FlatList
+              content:
+                - type: String
+                  content: Numpad6
+        - WithKey:
+            key:
+              type: String
+              content: target_right_leg
+            value:
+              type: FlatList
+              content:
+                - type: String
+                  content: Numpad1
+        - WithKey:
+            key:
+              type: String
+              content: target_body_groin
+            value:
+              type: FlatList
+              content:
+                - type: String
+                  content: Numpad2
+        - WithKey:
+            key:
+              type: String
+              content: target_left_leg
+            value:
+              type: FlatList
+              content:
+                - type: String
+                  content: Numpad3
+        - WithKey:
+            key:
+              type: String
+              content: North
+            value:
+              type: FlatList
+              content:
+                - type: String
+                  content: W
+                - type: String
+                  content: North
+        - WithKey:
+            key:
+              type: String
+              content: South
+            value:
+              type: FlatList
+              content:
+                - type: String
+                  content: S
+                - type: String
+                  content: South
+        - WithKey:
+            key:
+              type: String
+              content: West
+            value:
+              type: FlatList
+              content:
+                - type: String
+                  content: A
+                - type: String
+                  content: West
+        - WithKey:
+            key:
+              type: String
+              content: East
+            value:
+              type: FlatList
+              content:
+                - type: String
+                  content: D
+                - type: String
+                  content: East
+        - WithKey:
+            key:
+              type: String
+              content: hold_throw_mode
+            value:
+              type: FlatList
+              content:
+                - type: String
+                  content: Space
+        - WithKey:
+            key:
+              type: String
+              content: Give_Item
+            value:
+              type: FlatList
+              content:
+                - type: String
+                  content: G
+        - WithKey:
+            key:
+              type: String
+              content: Say
+            value:
+              type: FlatList
+              content:
+                - type: String
+                  content: T
+        - WithKey:
+            key:
+              type: String
+              content: OOC
+            value:
+              type: FlatList
+              content:
+                - type: String
+                  content: O
+        - WithKey:
+            key:
+              type: String
+              content: Me
+            value:
+              type: FlatList
+              content:
+                - type: String
+                  content: M
+        - WithKey:
+            key:
+              type: String
+              content: quick_equip_suit_storage
+            value:
+              type: FlatList
+              content:
+                - type: String
+                  content: ShiftQ
+        - WithKey:
+            key:
+              type: String
+              content: look down
+            value:
+              type: FlatList
+              content:
+                - type: String
+                  content: ;
+        - WithKey:
+            key:
+              type: String
+              content: rest
+            value:
+              type: FlatList
+              content:
+                - type: String
+                  content: U
+        - WithKey:
+            key:
+              type: String
+              content: target_eyes
+            value:
+              type: FlatList
+              content:
+                - type: String
+                  content: Numpad7
+        - WithKey:
+            key:
+              type: String
+              content: target_mouths
+            value:
+              type: FlatList
+              content:
+                - type: String
+                  content: Numpad9
+        - WithKey:
+            key:
+              type: String
+              content: block_movement
+            value:
+              type: FlatList
+              content:
+                - type: String
+                  content: Ctrl
+        - WithKey:
+            key:
+              type: String
+              content: quick_equip_bag
+            value:
+              type: FlatList
+              content:
+                - type: String
+                  content: ShiftB
+        - WithKey:
+            key:
+              type: String
+              content: quick_equip_belt
+            value:
+              type: FlatList
+              content:
+                - type: String
+                  content: ShiftE
+        - WithKey:
+            key:
+              type: String
+              content: slowclap
+            value:
+              type: FlatList
+              content:
+                - type: String
+                  content: UNIDENTIFIED
+                - type: String
+                  content: "["
+        - WithKey:
+            key:
+              type: String
+              content: view_tags
+            value:
+              type: FlatList
+              content:
+                - type: String
+                  content: F9
+        - WithKey:
+            key:
+              type: String
+              content: swear
+            value:
+              type: FlatList
+              content: []
+        - WithKey:
+            key:
+              type: String
+              content: Radio
+            value:
+              type: FlatList
+              content:
+                - type: String
+                  content: Y
+    lastchangelog:
+      type: String
+      content: e87ff5553d9f6e75e80f350159624fde
+    max_chat_length:
+      type: Number
+      content: 110.0
+    menuoptions:
+      type: AssocList
+      content:
+        - WithKey:
+            key:
+              type: "Null"
+            value:
+              type: "Null"
+        - WithKey:
+            key:
+              type: "Null"
+            value:
+              type: "Null"
+    mod_select:
+      type: String
+      content: middle
+    ooccolor:
+      type: String
+      content: "#792828"
+    parallax:
+      type: Number
+      content: 0.0
+    pda_color:
+      type: String
+      content: "#808000"
+    pda_style:
+      type: String
+      content: Share Tech Mono
+    pixel_size:
+      type: Number
+      content: 0.0
+    preferred_map:
+      type: String
+      content: MetaStation
+    scaling_method:
+      type: String
+      content: normal
+    screentip_color:
+      type: String
+      content: "#ffd391"
+    screentip_pref:
+      type: Number
+      content: 0.0
+    see_chat_non_mob:
+      type: Number
+      content: 1.0
+    see_rc_emotes:
+      type: Number
+      content: 1.0
+    tgui_fancy:
+      type: Number
+      content: 1.0
+    tgui_input:
+      type: Number
+      content: 1.0
+    tgui_input_large:
+      type: Number
+      content: 0.0
+    tgui_input_swapped:
+      type: Number
+      content: 1.0
+    tgui_lock:
+      type: Number
+      content: 1.0
+    tgui_say_light_mode:
+      type: Number
+      content: 0.0
+    tip_delay:
+      type: Number
+      content: 500.0
+    toggles:
+      type: Number
+      content: 1051647.0
+    typingIndicator:
+      type: Number
+      content: 1.0
+    uses_glasses_colour:
+      type: Number
+      content: 0.0
+    version:
+      type: Number
+      content: 42.0
+    widescreenpref:
+      type: Number
+      content: 1.0
+    windowflash:
+      type: Number
+      content: 1.0
+    windowflashing:
+      type: Number
+      content: 1.0
+  character1:
+    age:
+      type: Number
+      content: 55.0
+    ai_name:
+      type: String
+      content: D.E.S.P.A.I.R.
+    all_quirks:
+      type: FlatList
+      content:
+        - type: String
+          content: Reality Dissociation Syndrome
+        - type: String
+          content: Light Step
+        - type: String
+          content: Night Vision
+    backpack:
+      type: String
+      content: Department Satchel
+    bible_name:
+      type: String
+      content: Default Bible Name
+    body_type:
+      type: String
+      content: Use gender
+    clown_name:
+      type: String
+      content: Junk Honkshima
+    cyborg_name:
+      type: String
+      content: TEI
+    deity_name:
+      type: String
+      content: Junko Enoshima
+    eye_color:
+      type: String
+      content: f30
+    facial_hair_color:
+      type: String
+      content: a9d
+    facial_hair_gradient:
+      type: String
+      content: None
+    facial_hair_gradient_color:
+      type: String
+      content: "#59ab64"
+    facial_style_name:
+      type: String
+      content: Shaved
+    feature_ethcolor:
+      type: String
+      content: ffa64d
+    feature_human_ears:
+      type: String
+      content: None
+    feature_human_tail:
+      type: String
+      content: None
+    feature_lizard_body_markings:
+      type: String
+      content: None
+    feature_lizard_frills:
+      type: String
+      content: Simple
+    feature_lizard_horns:
+      type: String
+      content: Angeler
+    feature_lizard_legs:
+      type: String
+      content: Normal Legs
+    feature_lizard_snout:
+      type: String
+      content: Round
+    feature_lizard_spines:
+      type: String
+      content: Short
+    feature_lizard_tail:
+      type: String
+      content: Smooth
+    feature_mcolor:
+      type: String
+      content: fff
+    feature_moth_antennae:
+      type: String
+      content: Poison
+    feature_moth_markings:
+      type: String
+      content: Deathshead
+    feature_moth_wings:
+      type: String
+      content: Gothic
+    feature_pod_hair:
+      type: String
+      content: Prayer
+    feature_vampire_status:
+      type: String
+      content: Inoculated
+    gender:
+      type: String
+      content: female
+    glasses:
+      type: String
+      content: Circle
+    hair_color:
+      type: String
+      content: "000"
+    hair_gradient:
+      type: String
+      content: None
+    hair_gradient_color:
+      type: String
+      content: "#afcd70"
+    hairstyle_name:
+      type: String
+      content: Bob Hair
+    heterochromatic:
+      type: String
+      content: "#5868dd"
+    human_name:
+      type: String
+      content: Persh Kemerer
+    job_preferences:
+      type: AssocList
+      content:
+        - WithKey:
+            key:
+              type: String
+              content: Prisoner
+            value:
+              type: Number
+              content: 1.0
+        - WithKey:
+            key:
+              type: String
+              content: Botanist
+            value:
+              type: Number
+              content: 3.0
+        - WithKey:
+            key:
+              type: String
+              content: Bartender
+            value:
+              type: Number
+              content: 1.0
+        - WithKey:
+            key:
+              type: String
+              content: Station Engineer
+            value:
+              type: Number
+              content: 1.0
+        - WithKey:
+            key:
+              type: String
+              content: Chemist
+            value:
+              type: Number
+              content: 1.0
+        - WithKey:
+            key:
+              type: String
+              content: Medical Doctor
+            value:
+              type: Number
+              content: 1.0
+        - WithKey:
+            key:
+              type: String
+              content: Janitor
+            value:
+              type: Number
+              content: 2.0
+        - WithKey:
+            key:
+              type: String
+              content: Cargo Technician
+            value:
+              type: Number
+              content: 1.0
+        - WithKey:
+            key:
+              type: String
+              content: Geneticist
+            value:
+              type: Number
+              content: 1.0
+        - WithKey:
+            key:
+              type: String
+              content: Roboticist
+            value:
+              type: Number
+              content: 1.0
+        - WithKey:
+            key:
+              type: String
+              content: Scientist
+            value:
+              type: Number
+              content: 1.0
+        - WithKey:
+            key:
+              type: String
+              content: Quartermaster
+            value:
+              type: Number
+              content: 1.0
+    joblessrole:
+      type: Number
+      content: 2.0
+    jumpsuit_style:
+      type: String
+      content: Jumpskirt
+    mime_name:
+      type: String
+      content: Junko Muteshima
+    persistent_scars:
+      type: Number
+      content: 0.0
+    phobia:
+      type: String
+      content: snakes
+    playtime_reward_cloak:
+      type: Number
+      content: 0.0
+    prefered_security_department:
+      type: String
+      content: None
+    preferred_ai_core_display:
+      type: String
+      content: Nanotrasen
+    random_body:
+      type: Number
+      content: 2.0
+    random_hardcore:
+      type: Number
+      content: 0.0
+    random_name:
+      type: Number
+      content: 2.0
+    randomise:
+      type: AssocList
+      content:
+        - WithKey:
+            key:
+              type: String
+              content: backpack
+            value:
+              type: Number
+              content: 3.0
+        - WithKey:
+            key:
+              type: String
+              content: eye_color
+            value:
+              type: Number
+              content: 3.0
+        - WithKey:
+            key:
+              type: String
+              content: facial_hair_color
+            value:
+              type: Number
+              content: 3.0
+        - WithKey:
+            key:
+              type: String
+              content: facial_hairstyle
+            value:
+              type: Number
+              content: 3.0
+        - WithKey:
+            key:
+              type: String
+              content: hair_color
+            value:
+              type: Number
+              content: 3.0
+        - WithKey:
+            key:
+              type: String
+              content: hairstyle
+            value:
+              type: Number
+              content: 3.0
+        - WithKey:
+            key:
+              type: String
+              content: jumpsuit_style
+            value:
+              type: Number
+              content: 3.0
+        - WithKey:
+            key:
+              type: String
+              content: skin_tone
+            value:
+              type: Number
+              content: 3.0
+        - WithKey:
+            key:
+              type: String
+              content: socks
+            value:
+              type: Number
+              content: 3.0
+        - WithKey:
+            key:
+              type: String
+              content: undershirt
+            value:
+              type: Number
+              content: 3.0
+        - WithKey:
+            key:
+              type: String
+              content: underwear
+            value:
+              type: Number
+              content: 3.0
+        - WithKey:
+            key:
+              type: String
+              content: underwear_color
+            value:
+              type: Number
+              content: 3.0
+    real_name:
+      type: String
+      content: Tewi Inaba Rouge
+    religion_name:
+      type: String
+      content: Despair
+    skin_tone:
+      type: String
+      content: caucasian1
+    socks:
+      type: String
+      content: Nude
+    species:
+      type: String
+      content: human
+    undershirt:
+      type: String
+      content: Shirt (Grey)
+    underwear:
+      type: String
+      content: "Ladies' Bikini"
+    underwear_color:
+      type: String
+      content: 9ba
+    uplink_loc:
+      type: String
+      content: PDA
+    version:
+      type: Number
+      content: 42.0
+  character2:
+    OOC_Notes:
+      type: String
+      content: ""
+    age:
+      type: Number
+      content: 26.0
+    ai_name:
+      type: String
+      content: D.E.S.P.A.I.R.
+    all_quirks:
+      type: FlatList
+      content:
+        - type: String
+          content: Shifty Eyes
+    all_traits:
+      type: FlatList
+      content: []
+    backbag:
+      type: String
+      content: Grey Backpack
+    backpack:
+      type: String
+      content: Department Backpack
+    bible_name:
+      type: String
+      content: Default Bible Name
+    body_is_always_random:
+      type: Number
+      content: 0.0
+    body_type:
+      type: String
+      content: Use gender
+    clown_name:
+      type: String
+      content: Junk Honkshima
+    cyborg_name:
+      type: String
+      content: Lovelace
+    deity_name:
+      type: String
+      content: Junko Enoshima
+    eye_color:
+      type: String
+      content: "#66ff33"
+    facial_hair_color:
+      type: String
+      content: e95
+    facial_hair_gradient:
+      type: String
+      content: None
+    facial_hair_gradient_color:
+      type: String
+      content: "#fbd38d"
+    facial_style_name:
+      type: String
+      content: Shaved
+    feature_ethcolor:
+      type: String
+      content: 9c3030
+    feature_human_ears:
+      type: String
+      content: None
+    feature_human_tail:
+      type: String
+      content: Shark
+    feature_lizard_body_markings:
+      type: String
+      content: None
+    feature_lizard_frills:
+      type: String
+      content: Simple
+    feature_lizard_horns:
+      type: String
+      content: Ram
+    feature_lizard_legs:
+      type: String
+      content: Normal Legs
+    feature_lizard_snout:
+      type: String
+      content: Round + Light
+    feature_lizard_spines:
+      type: String
+      content: Short + Membrane
+    feature_lizard_tail:
+      type: String
+      content: Smooth
+    feature_mcolor:
+      type: String
+      content: f77
+    feature_moth_antennae:
+      type: String
+      content: Plain
+    feature_moth_markings:
+      type: String
+      content: None
+    feature_moth_wings:
+      type: String
+      content: Reddish
+    feature_pod_hair:
+      type: String
+      content: Spinach
+    feature_vampire_status:
+      type: String
+      content: Inoculated
+    featuresmcolor:
+      type: String
+      content: "#FFF"
+    gender:
+      type: String
+      content: female
+    glasses:
+      type: String
+      content: Circle
+    hair_color:
+      type: String
+      content: "#996633"
+    hair_gradient:
+      type: String
+      content: Long Fade Up
+    hair_gradient_color:
+      type: String
+      content: "#663300"
+    hair_style_name:
+      type: String
+      content: Bun (Large)
+    hairstyle_name:
+      type: String
+      content: Pigtails 2
+    heterochromatic:
+      type: String
+      content: "#f91b96"
+    human_name:
+      type: String
+      content: Persh Kemerer
+    job_civilian_high:
+      type: Number
+      content: 0.0
+    job_civilian_low:
+      type: Number
+      content: 5420.0
+    job_civilian_med:
+      type: Number
+      content: 210.0
+    job_engsec_high:
+      type: Number
+      content: 0.0
+    job_engsec_low:
+      type: Number
+      content: 1152.0
+    job_engsec_med:
+      type: Number
+      content: 64.0
+    job_medsci_high:
+      type: Number
+      content: 2.0
+    job_medsci_low:
+      type: Number
+      content: 80.0
+    job_medsci_med:
+      type: Number
+      content: 260.0
+    job_preferences:
+      type: AssocList
+      content:
+        - WithKey:
+            key:
+              type: String
+              content: Janitor
+            value:
+              type: Number
+              content: 1.0
+        - WithKey:
+            key:
+              type: String
+              content: Medical Doctor
+            value:
+              type: Number
+              content: 3.0
+    joblessrole:
+      type: Number
+      content: 2.0
+    jumpsuit_style:
+      type: String
+      content: Jumpskirt
+    mime_name:
+      type: String
+      content: Junko Muteshima
+    name_is_always_random:
+      type: Number
+      content: 0.0
+    negative_quirks:
+      type: FlatList
+      content: []
+    negative_traits:
+      type: FlatList
+      content: []
+    neutral_quirks:
+      type: FlatList
+      content: []
+    neutral_traits:
+      type: FlatList
+      content: []
+    persistent_scars:
+      type: Number
+      content: 1.0
+    phobia:
+      type: String
+      content: falling
+    playtime_reward_cloak:
+      type: Number
+      content: 0.0
+    positive_quirks:
+      type: FlatList
+      content: []
+    positive_traits:
+      type: FlatList
+      content: []
+    prefered_security_department:
+      type: String
+      content: None
+    preferred_ai_core_display:
+      type: String
+      content: ":thinking:"
+    random_body:
+      type: Number
+      content: 2.0
+    random_hardcore:
+      type: Number
+      content: 0.0
+    random_name:
+      type: Number
+      content: 2.0
+    randomise:
+      type: AssocList
+      content:
+        - WithKey:
+            key:
+              type: String
+              content: backpack
+            value:
+              type: Number
+              content: 3.0
+        - WithKey:
+            key:
+              type: String
+              content: eye_color
+            value:
+              type: Number
+              content: 3.0
+        - WithKey:
+            key:
+              type: String
+              content: facial_hair_color
+            value:
+              type: Number
+              content: 3.0
+        - WithKey:
+            key:
+              type: String
+              content: facial_hairstyle
+            value:
+              type: Number
+              content: 3.0
+        - WithKey:
+            key:
+              type: String
+              content: hair_color
+            value:
+              type: Number
+              content: 3.0
+        - WithKey:
+            key:
+              type: String
+              content: hairstyle
+            value:
+              type: Number
+              content: 3.0
+        - WithKey:
+            key:
+              type: String
+              content: jumpsuit_style
+            value:
+              type: Number
+              content: 3.0
+        - WithKey:
+            key:
+              type: String
+              content: skin_tone
+            value:
+              type: Number
+              content: 3.0
+        - WithKey:
+            key:
+              type: String
+              content: socks
+            value:
+              type: Number
+              content: 3.0
+        - WithKey:
+            key:
+              type: String
+              content: undershirt
+            value:
+              type: Number
+              content: 3.0
+        - WithKey:
+            key:
+              type: String
+              content: underwear
+            value:
+              type: Number
+              content: 3.0
+        - WithKey:
+            key:
+              type: String
+              content: underwear_color
+            value:
+              type: Number
+              content: 3.0
+    real_name:
+      type: String
+      content: Isadora Pereira
+    religion_name:
+      type: String
+      content: Despair
+    skin_tone:
+      type: String
+      content: latino
+    socks:
+      type: String
+      content: Stockings (Purple)
+    species:
+      type: String
+      content: shark
+    undershirt:
+      type: String
+      content: Sports Bra
+    underwear:
+      type: String
+      content: "Ladies' Sport"
+    underwear_color:
+      type: String
+      content: "000"
+    uplink_loc:
+      type: String
+      content: PDA
+    version:
+      type: Number
+      content: 42.0
+  character3:
+    age:
+      type: Number
+      content: 53.0
+    ai_name:
+      type: String
+      content: D.E.S.P.A.I.R.
+    all_quirks:
+      type: FlatList
+      content:
+        - type: String
+          content: Blind
+        - type: String
+          content: Empath
+        - type: String
+          content: Light Step
+        - type: String
+          content: Voracious
+        - type: String
+          content: Reality Dissociation Syndrome
+        - type: String
+          content: Jolly
+        - type: String
+          content: Friendly
+        - type: String
+          content: Musician
+        - type: String
+          content: Photographer
+        - type: String
+          content: Ananas Affinity
+    backpack:
+      type: String
+      content: Department Backpack
+    bible_name:
+      type: String
+      content: Default Bible Name
+    body_type:
+      type: String
+      content: Use gender
+    clown_name:
+      type: String
+      content: Junk Honkshima
+    cyborg_name:
+      type: String
+      content: Lovelace
+    deity_name:
+      type: String
+      content: Junko Enoshima
+    eye_color:
+      type: String
+      content: "060"
+    facial_hair_color:
+      type: String
+      content: "960"
+    facial_hair_gradient:
+      type: String
+      content: None
+    facial_hair_gradient_color:
+      type: String
+      content: "#feca6f"
+    facial_style_name:
+      type: String
+      content: Beard (Full)
+    feature_ethcolor:
+      type: String
+      content: White
+    feature_human_ears:
+      type: String
+      content: None
+    feature_human_tail:
+      type: String
+      content: None
+    feature_lizard_body_markings:
+      type: String
+      content: Light Belly
+    feature_lizard_frills:
+      type: String
+      content: Simple
+    feature_lizard_horns:
+      type: String
+      content: Simple
+    feature_lizard_legs:
+      type: String
+      content: Normal Legs
+    feature_lizard_snout:
+      type: String
+      content: Round
+    feature_lizard_spines:
+      type: String
+      content: Long + Membrane
+    feature_lizard_tail:
+      type: String
+      content: Smooth
+    feature_mcolor:
+      type: String
+      content: ff7
+    feature_moth_antennae:
+      type: String
+      content: Gothic
+    feature_moth_markings:
+      type: String
+      content: White Fly
+    feature_moth_wings:
+      type: String
+      content: Luna
+    feature_pod_hair:
+      type: String
+      content: Prayer
+    feature_vampire_status:
+      type: String
+      content: Inoculated
+    gender:
+      type: String
+      content: male
+    glasses:
+      type: String
+      content: Circle
+    hair_color:
+      type: String
+      content: fff
+    hair_gradient:
+      type: String
+      content: None
+    hair_gradient_color:
+      type: String
+      content: "#06eb41"
+    hairstyle_name:
+      type: String
+      content: Jade
+    heterochromatic:
+      type: String
+      content: "#fd703c"
+    human_name:
+      type: String
+      content: Persh Kemerer
+    job_preferences:
+      type: AssocList
+      content:
+        - WithKey:
+            key:
+              type: String
+              content: Virologist
+            value:
+              type: Number
+              content: 2.0
+        - WithKey:
+            key:
+              type: String
+              content: Botanist
+            value:
+              type: Number
+              content: 2.0
+        - WithKey:
+            key:
+              type: String
+              content: Bartender
+            value:
+              type: Number
+              content: 2.0
+        - WithKey:
+            key:
+              type: String
+              content: Geneticist
+            value:
+              type: Number
+              content: 2.0
+    joblessrole:
+      type: Number
+      content: 2.0
+    jumpsuit_style:
+      type: String
+      content: Jumpskirt
+    mime_name:
+      type: String
+      content: Junko Muteshima
+    persistent_scars:
+      type: Number
+      content: 1.0
+    phobia:
+      type: String
+      content: falling
+    playtime_reward_cloak:
+      type: Number
+      content: 0.0
+    prefered_security_department:
+      type: String
+      content: None
+    preferred_ai_core_display:
+      type: String
+      content: Dorf
+    random_body:
+      type: Number
+      content: 2.0
+    random_hardcore:
+      type: Number
+      content: 0.0
+    random_name:
+      type: Number
+      content: 2.0
+    randomise:
+      type: AssocList
+      content:
+        - WithKey:
+            key:
+              type: String
+              content: backpack
+            value:
+              type: Number
+              content: 3.0
+        - WithKey:
+            key:
+              type: String
+              content: eye_color
+            value:
+              type: Number
+              content: 3.0
+        - WithKey:
+            key:
+              type: String
+              content: facial_hair_color
+            value:
+              type: Number
+              content: 3.0
+        - WithKey:
+            key:
+              type: String
+              content: facial_hairstyle
+            value:
+              type: Number
+              content: 3.0
+        - WithKey:
+            key:
+              type: String
+              content: hair_color
+            value:
+              type: Number
+              content: 3.0
+        - WithKey:
+            key:
+              type: String
+              content: hairstyle
+            value:
+              type: Number
+              content: 3.0
+        - WithKey:
+            key:
+              type: String
+              content: jumpsuit_style
+            value:
+              type: Number
+              content: 3.0
+        - WithKey:
+            key:
+              type: String
+              content: skin_tone
+            value:
+              type: Number
+              content: 3.0
+        - WithKey:
+            key:
+              type: String
+              content: socks
+            value:
+              type: Number
+              content: 3.0
+        - WithKey:
+            key:
+              type: String
+              content: undershirt
+            value:
+              type: Number
+              content: 3.0
+        - WithKey:
+            key:
+              type: String
+              content: underwear
+            value:
+              type: Number
+              content: 3.0
+        - WithKey:
+            key:
+              type: String
+              content: underwear_color
+            value:
+              type: Number
+              content: 3.0
+    real_name:
+      type: String
+      content: Canopus PE
+    religion_name:
+      type: String
+      content: Despair
+    skin_tone:
+      type: String
+      content: mediterranean
+    socks:
+      type: String
+      content: Thigh-high (Thin)
+    species:
+      type: String
+      content: ethereal
+    undershirt:
+      type: String
+      content: Nude
+    underwear:
+      type: String
+      content: "Ladies' One Piece Swimsuit"
+    underwear_color:
+      type: String
+      content: "000"
+    uplink_loc:
+      type: String
+      content: PDA
+    version:
+      type: Number
+      content: 42.0
+  character4:
+    age:
+      type: Number
+      content: 18.0
+    ai_name:
+      type: String
+      content: Trurl
+    all_quirks:
+      type: FlatList
+      content: []
+    backpack:
+      type: String
+      content: Department Satchel
+    bible_name:
+      type: String
+      content: Default Bible Name
+    body_type:
+      type: String
+      content: Use gender
+    clown_name:
+      type: String
+      content: Ningelo
+    cyborg_name:
+      type: String
+      content: Default Cyborg Name
+    deity_name:
+      type: String
+      content: Space Jesus
+    eye_color:
+      type: String
+      content: "#663300"
+    facial_hair_color:
+      type: String
+      content: "#f2c2e6"
+    facial_hair_gradient:
+      type: String
+      content: None
+    facial_hair_gradient_color:
+      type: String
+      content: "#2b1589"
+    facial_style_name:
+      type: String
+      content: Shaved
+    feature_ethcolor:
+      type: String
+      content: Blue
+    feature_human_ears:
+      type: String
+      content: Cat
+    feature_human_tail:
+      type: String
+      content: Cat
+    feature_lizard_body_markings:
+      type: String
+      content: Light Belly
+    feature_lizard_frills:
+      type: String
+      content: None
+    feature_lizard_horns:
+      type: String
+      content: Simple
+    feature_lizard_legs:
+      type: String
+      content: Digitigrade Legs
+    feature_lizard_snout:
+      type: String
+      content: Round + Light
+    feature_lizard_spines:
+      type: String
+      content: Long + Membrane
+    feature_lizard_tail:
+      type: String
+      content: Dark Tiger
+    feature_mcolor:
+      type: String
+      content: "#ffffff"
+    feature_moth_antennae:
+      type: String
+      content: Royal
+    feature_moth_markings:
+      type: String
+      content: Lovers
+    feature_moth_wings:
+      type: String
+      content: Atlas
+    feature_pod_hair:
+      type: String
+      content: Orchid
+    feature_vampire_status:
+      type: String
+      content: Inoculated
+    gender:
+      type: String
+      content: female
+    glasses:
+      type: String
+      content: Thin
+    hair_color:
+      type: String
+      content: "#663300"
+    hair_gradient:
+      type: String
+      content: None
+    hair_gradient_color:
+      type: String
+      content: "#aaebeb"
+    hairstyle_name:
+      type: String
+      content: Bob Hair
+    heterochromatic:
+      type: String
+      content: "#ed6d37"
+    human_name:
+      type: String
+      content: Flip Treeby
+    job_preferences:
+      type: AssocList
+      content:
+        - WithKey:
+            key:
+              type: String
+              content: Cargo Technician
+            value:
+              type: Number
+              content: 2.0
+    jumpsuit_style:
+      type: String
+      content: Jumpskirt
+    mime_name:
+      type: String
+      content: Silencio
+    persistent_scars:
+      type: Number
+      content: 1.0
+    phobia:
+      type: String
+      content: birds
+    playtime_reward_cloak:
+      type: Number
+      content: 1.0
+    prefered_security_department:
+      type: String
+      content: None
+    preferred_ai_core_display:
+      type: String
+      content: Gentoo
+    random_body:
+      type: Number
+      content: 2.0
+    random_hardcore:
+      type: Number
+      content: 0.0
+    random_name:
+      type: Number
+      content: 2.0
+    randomise:
+      type: AssocList
+      content:
+        - WithKey:
+            key:
+              type: String
+              content: backpack
+            value:
+              type: Number
+              content: 3.0
+        - WithKey:
+            key:
+              type: String
+              content: eye_color
+            value:
+              type: Number
+              content: 3.0
+        - WithKey:
+            key:
+              type: String
+              content: facial_hair_color
+            value:
+              type: Number
+              content: 3.0
+        - WithKey:
+            key:
+              type: String
+              content: facial_hairstyle
+            value:
+              type: Number
+              content: 3.0
+        - WithKey:
+            key:
+              type: String
+              content: hair_color
+            value:
+              type: Number
+              content: 3.0
+        - WithKey:
+            key:
+              type: String
+              content: hairstyle
+            value:
+              type: Number
+              content: 3.0
+        - WithKey:
+            key:
+              type: String
+              content: jumpsuit_style
+            value:
+              type: Number
+              content: 3.0
+        - WithKey:
+            key:
+              type: String
+              content: skin_tone
+            value:
+              type: Number
+              content: 3.0
+        - WithKey:
+            key:
+              type: String
+              content: socks
+            value:
+              type: Number
+              content: 3.0
+        - WithKey:
+            key:
+              type: String
+              content: undershirt
+            value:
+              type: Number
+              content: 3.0
+        - WithKey:
+            key:
+              type: String
+              content: underwear
+            value:
+              type: Number
+              content: 3.0
+        - WithKey:
+            key:
+              type: String
+              content: underwear_color
+            value:
+              type: Number
+              content: 3.0
+    real_name:
+      type: String
+      content: Chen Yakumo
+    religion_name:
+      type: String
+      content: SubGenius
+    skin_tone:
+      type: String
+      content: caucasian1
+    socks:
+      type: String
+      content: Thigh-high (White)
+    species:
+      type: String
+      content: felinid
+    undershirt:
+      type: String
+      content: Shirt (Red)
+    underwear:
+      type: String
+      content: "Ladies' One Piece Swimsuit"
+    underwear_color:
+      type: String
+      content: "#ece734"
+    uplink_loc:
+      type: String
+      content: PDA
+    version:
+      type: Number
+      content: 42.0
+  character5:
+    age:
+      type: Number
+      content: 25.0
+    ai_name:
+      type: String
+      content: Dee Model
+    all_quirks:
+      type: FlatList
+      content: []
+    backpack:
+      type: String
+      content: Grey Backpack
+    bible_name:
+      type: String
+      content: Default Bible Name
+    body_type:
+      type: String
+      content: Use gender
+    clown_name:
+      type: String
+      content: Chuckles
+    cyborg_name:
+      type: String
+      content: Default Cyborg Name
+    deity_name:
+      type: String
+      content: Space Jesus
+    eye_color:
+      type: String
+      content: "#006600"
+    facial_hair_color:
+      type: String
+      content: "#a796f5"
+    facial_hair_gradient:
+      type: String
+      content: None
+    facial_hair_gradient_color:
+      type: String
+      content: "#a46fad"
+    facial_style_name:
+      type: String
+      content: Sideburns
+    feature_ethcolor:
+      type: String
+      content: Red
+    feature_human_ears:
+      type: String
+      content: Cat
+    feature_human_tail:
+      type: String
+      content: Cat
+    feature_lizard_body_markings:
+      type: String
+      content: None
+    feature_lizard_frills:
+      type: String
+      content: Simple
+    feature_lizard_horns:
+      type: String
+      content: Angeler
+    feature_lizard_legs:
+      type: String
+      content: Normal Legs
+    feature_lizard_snout:
+      type: String
+      content: Round + Light
+    feature_lizard_spines:
+      type: String
+      content: Short + Membrane
+    feature_lizard_tail:
+      type: String
+      content: Smooth
+    feature_mcolor:
+      type: String
+      content: "#ffffff"
+    feature_moth_antennae:
+      type: String
+      content: White Fly
+    feature_moth_markings:
+      type: String
+      content: Burnt Off
+    feature_moth_wings:
+      type: String
+      content: Atlas
+    feature_pod_hair:
+      type: String
+      content: Prayer
+    feature_vampire_status:
+      type: String
+      content: Inoculated
+    gender:
+      type: String
+      content: female
+    glasses:
+      type: String
+      content: Thin
+    hair_color:
+      type: String
+      content: "#e29e12"
+    hair_gradient:
+      type: String
+      content: None
+    hair_gradient_color:
+      type: String
+      content: "#766cbe"
+    hairstyle_name:
+      type: String
+      content: Gentle
+    heterochromatic:
+      type: String
+      content: "#b25c16"
+    human_name:
+      type: String
+      content: Brenna Vader
+    job_preferences:
+      type: AssocList
+      content:
+        - WithKey:
+            key:
+              type: String
+              content: Janitor
+            value:
+              type: Number
+              content: 1.0
+        - WithKey:
+            key:
+              type: String
+              content: Medical Doctor
+            value:
+              type: Number
+              content: 3.0
+    jumpsuit_style:
+      type: String
+      content: Jumpsuit
+    mime_name:
+      type: String
+      content: Marcel Mime
+    persistent_scars:
+      type: Number
+      content: 1.0
+    phobia:
+      type: String
+      content: blood
+    playtime_reward_cloak:
+      type: Number
+      content: 1.0
+    prefered_security_department:
+      type: String
+      content: None
+    preferred_ai_core_display:
+      type: String
+      content: Goon
+    random_body:
+      type: Number
+      content: 2.0
+    random_hardcore:
+      type: Number
+      content: 0.0
+    random_name:
+      type: Number
+      content: 2.0
+    randomise:
+      type: AssocList
+      content:
+        - WithKey:
+            key:
+              type: String
+              content: backpack
+            value:
+              type: Number
+              content: 3.0
+        - WithKey:
+            key:
+              type: String
+              content: eye_color
+            value:
+              type: Number
+              content: 3.0
+        - WithKey:
+            key:
+              type: String
+              content: facial_hair_color
+            value:
+              type: Number
+              content: 3.0
+        - WithKey:
+            key:
+              type: String
+              content: facial_hairstyle
+            value:
+              type: Number
+              content: 3.0
+        - WithKey:
+            key:
+              type: String
+              content: hair_color
+            value:
+              type: Number
+              content: 3.0
+        - WithKey:
+            key:
+              type: String
+              content: hairstyle
+            value:
+              type: Number
+              content: 3.0
+        - WithKey:
+            key:
+              type: String
+              content: jumpsuit_style
+            value:
+              type: Number
+              content: 3.0
+        - WithKey:
+            key:
+              type: String
+              content: skin_tone
+            value:
+              type: Number
+              content: 3.0
+        - WithKey:
+            key:
+              type: String
+              content: socks
+            value:
+              type: Number
+              content: 3.0
+        - WithKey:
+            key:
+              type: String
+              content: undershirt
+            value:
+              type: Number
+              content: 3.0
+        - WithKey:
+            key:
+              type: String
+              content: underwear
+            value:
+              type: Number
+              content: 3.0
+        - WithKey:
+            key:
+              type: String
+              content: underwear_color
+            value:
+              type: Number
+              content: 3.0
+    real_name:
+      type: String
+      content: Jeri Wilkinson
+    religion_name:
+      type: String
+      content: Honkmother
+    skin_tone:
+      type: String
+      content: asian2
+    socks:
+      type: String
+      content: Knee-high (Ace)
+    species:
+      type: String
+      content: human
+    undershirt:
+      type: String
+      content: Top (Red)
+    underwear:
+      type: String
+      content: "Men's Long Johns"
+    underwear_color:
+      type: String
+      content: "#e0f90c"
+    uplink_loc:
+      type: String
+      content: PDA
+    version:
+      type: Number
+      content: 42.0
+  character6:
+    age:
+      type: Number
+      content: 28.0
+    ai_name:
+      type: String
+      content: Computer
+    all_quirks:
+      type: FlatList
+      content: []
+    backpack:
+      type: String
+      content: Leather Satchel
+    bible_name:
+      type: String
+      content: Default Bible Name
+    body_type:
+      type: String
+      content: Use gender
+    clown_name:
+      type: String
+      content: Grandma
+    cyborg_name:
+      type: String
+      content: Default Cyborg Name
+    deity_name:
+      type: String
+      content: Space Jesus
+    eye_color:
+      type: String
+      content: "#66ff33"
+    facial_hair_color:
+      type: String
+      content: "#b02757"
+    facial_hair_gradient:
+      type: String
+      content: None
+    facial_hair_gradient_color:
+      type: String
+      content: "#e82966"
+    facial_style_name:
+      type: String
+      content: Shaved
+    feature_ethcolor:
+      type: String
+      content: Faint Blue
+    feature_human_ears:
+      type: String
+      content: Cat
+    feature_human_tail:
+      type: String
+      content: Cat
+    feature_lizard_body_markings:
+      type: String
+      content: None
+    feature_lizard_frills:
+      type: String
+      content: None
+    feature_lizard_horns:
+      type: String
+      content: Angeler
+    feature_lizard_legs:
+      type: String
+      content: Normal Legs
+    feature_lizard_snout:
+      type: String
+      content: Sharp
+    feature_lizard_spines:
+      type: String
+      content: Short
+    feature_lizard_tail:
+      type: String
+      content: Light Tiger
+    feature_mcolor:
+      type: String
+      content: "#7fffff"
+    feature_moth_antennae:
+      type: String
+      content: Reddish
+    feature_moth_markings:
+      type: String
+      content: Lovers
+    feature_moth_wings:
+      type: String
+      content: Monarch
+    feature_pod_hair:
+      type: String
+      content: Vine
+    feature_vampire_status:
+      type: String
+      content: Inoculated
+    gender:
+      type: String
+      content: female
+    glasses:
+      type: String
+      content: Thin
+    hair_color:
+      type: String
+      content: "#996633"
+    hair_gradient:
+      type: String
+      content: Long Fade Up
+    hair_gradient_color:
+      type: String
+      content: "#ff0000"
+    hairstyle_name:
+      type: String
+      content: Jade
+    heterochromatic:
+      type: String
+      content: "#60e7ff"
+    human_name:
+      type: String
+      content: Christopher Kiefer
+    job_preferences:
+      type: AssocList
+      content:
+        - WithKey:
+            key:
+              type: String
+              content: Janitor
+            value:
+              type: Number
+              content: 1.0
+        - WithKey:
+            key:
+              type: String
+              content: Prisoner
+            value:
+              type: Number
+              content: 3.0
+        - WithKey:
+            key:
+              type: String
+              content: Cook
+            value:
+              type: Number
+              content: 1.0
+        - WithKey:
+            key:
+              type: String
+              content: Bartender
+            value:
+              type: Number
+              content: 1.0
+        - WithKey:
+            key:
+              type: String
+              content: Botanist
+            value:
+              type: Number
+              content: 2.0
+        - WithKey:
+            key:
+              type: String
+              content: Shaft Miner
+            value:
+              type: Number
+              content: 2.0
+    jumpsuit_style:
+      type: String
+      content: Jumpsuit
+    mime_name:
+      type: String
+      content: Silent Sorrow
+    persistent_scars:
+      type: Number
+      content: 1.0
+    phobia:
+      type: String
+      content: guns
+    playtime_reward_cloak:
+      type: Number
+      content: 1.0
+    prefered_security_department:
+      type: String
+      content: None
+    preferred_ai_core_display:
+      type: String
+      content: Heartline
+    random_body:
+      type: Number
+      content: 2.0
+    random_hardcore:
+      type: Number
+      content: 0.0
+    random_name:
+      type: Number
+      content: 2.0
+    randomise:
+      type: AssocList
+      content:
+        - WithKey:
+            key:
+              type: String
+              content: backpack
+            value:
+              type: Number
+              content: 3.0
+        - WithKey:
+            key:
+              type: String
+              content: eye_color
+            value:
+              type: Number
+              content: 3.0
+        - WithKey:
+            key:
+              type: String
+              content: facial_hair_color
+            value:
+              type: Number
+              content: 3.0
+        - WithKey:
+            key:
+              type: String
+              content: facial_hairstyle
+            value:
+              type: Number
+              content: 3.0
+        - WithKey:
+            key:
+              type: String
+              content: hair_color
+            value:
+              type: Number
+              content: 3.0
+        - WithKey:
+            key:
+              type: String
+              content: hairstyle
+            value:
+              type: Number
+              content: 3.0
+        - WithKey:
+            key:
+              type: String
+              content: jumpsuit_style
+            value:
+              type: Number
+              content: 3.0
+        - WithKey:
+            key:
+              type: String
+              content: skin_tone
+            value:
+              type: Number
+              content: 3.0
+        - WithKey:
+            key:
+              type: String
+              content: socks
+            value:
+              type: Number
+              content: 3.0
+        - WithKey:
+            key:
+              type: String
+              content: undershirt
+            value:
+              type: Number
+              content: 3.0
+        - WithKey:
+            key:
+              type: String
+              content: underwear
+            value:
+              type: Number
+              content: 3.0
+        - WithKey:
+            key:
+              type: String
+              content: underwear_color
+            value:
+              type: Number
+              content: 3.0
+    real_name:
+      type: String
+      content: Raquel Pereira
+    religion_name:
+      type: String
+      content: Christianity
+    skin_tone:
+      type: String
+      content: latino
+    socks:
+      type: String
+      content: Thocks
+    species:
+      type: String
+      content: human
+    undershirt:
+      type: String
+      content: Top (White)
+    underwear:
+      type: String
+      content: "Ladies' White Neko"
+    underwear_color:
+      type: String
+      content: "#813d8c"
+    uplink_loc:
+      type: String
+      content: PDA
+    version:
+      type: Number
+      content: 42.0
+  character7:
+    age:
+      type: Number
+      content: 35.0
+    ai_name:
+      type: String
+      content: R I C 2 0
+    all_quirks:
+      type: FlatList
+      content: []
+    backpack:
+      type: String
+      content: Department Backpack
+    bible_name:
+      type: String
+      content: Default Bible Name
+    body_type:
+      type: String
+      content: Use gender
+    clown_name:
+      type: String
+      content: Ladybug Honks
+    cyborg_name:
+      type: String
+      content: Default Cyborg Name
+    deity_name:
+      type: String
+      content: Space Jesus
+    eye_color:
+      type: String
+      content: "#006600"
+    facial_hair_color:
+      type: String
+      content: "#b16711"
+    facial_hair_gradient:
+      type: String
+      content: None
+    facial_hair_gradient_color:
+      type: String
+      content: "#ae0f8d"
+    facial_style_name:
+      type: String
+      content: Beard (Jensen)
+    feature_ethcolor:
+      type: String
+      content: Blue
+    feature_human_ears:
+      type: String
+      content: Cat
+    feature_human_tail:
+      type: String
+      content: Cat
+    feature_lizard_body_markings:
+      type: String
+      content: Light Tiger Body
+    feature_lizard_frills:
+      type: String
+      content: Simple
+    feature_lizard_horns:
+      type: String
+      content: Short
+    feature_lizard_legs:
+      type: String
+      content: Normal Legs
+    feature_lizard_snout:
+      type: String
+      content: Sharp + Light
+    feature_lizard_spines:
+      type: String
+      content: Long + Membrane
+    feature_lizard_tail:
+      type: String
+      content: Light Tiger
+    feature_mcolor:
+      type: String
+      content: "#7fffff"
+    feature_moth_antennae:
+      type: String
+      content: Gothic
+    feature_moth_markings:
+      type: String
+      content: Gothic
+    feature_moth_wings:
+      type: String
+      content: Gothic
+    feature_pod_hair:
+      type: String
+      content: Shrub
+    feature_vampire_status:
+      type: String
+      content: Inoculated
+    gender:
+      type: String
+      content: female
+    glasses:
+      type: String
+      content: Thin
+    hair_color:
+      type: String
+      content: "#d57343"
+    hair_gradient:
+      type: String
+      content: None
+    hair_gradient_color:
+      type: String
+      content: "#94499e"
+    hairstyle_name:
+      type: String
+      content: Long Side Part
+    heterochromatic:
+      type: String
+      content: "#5e600f"
+    human_name:
+      type: String
+      content: Sabrina Lacon
+    job_preferences:
+      type: AssocList
+      content:
+        - WithKey:
+            key:
+              type: String
+              content: Station Engineer
+            value:
+              type: Number
+              content: 2.0
+        - WithKey:
+            key:
+              type: String
+              content: Atmospheric Technician
+            value:
+              type: Number
+              content: 2.0
+    jumpsuit_style:
+      type: String
+      content: Jumpskirt
+    mime_name:
+      type: String
+      content: Silencio
+    persistent_scars:
+      type: Number
+      content: 1.0
+    phobia:
+      type: String
+      content: robots
+    playtime_reward_cloak:
+      type: Number
+      content: 1.0
+    prefered_security_department:
+      type: String
+      content: None
+    preferred_ai_core_display:
+      type: String
+      content: Heartline
+    random_body:
+      type: Number
+      content: 2.0
+    random_hardcore:
+      type: Number
+      content: 0.0
+    random_name:
+      type: Number
+      content: 2.0
+    randomise:
+      type: AssocList
+      content:
+        - WithKey:
+            key:
+              type: String
+              content: backpack
+            value:
+              type: Number
+              content: 3.0
+        - WithKey:
+            key:
+              type: String
+              content: eye_color
+            value:
+              type: Number
+              content: 3.0
+        - WithKey:
+            key:
+              type: String
+              content: facial_hair_color
+            value:
+              type: Number
+              content: 3.0
+        - WithKey:
+            key:
+              type: String
+              content: facial_hairstyle
+            value:
+              type: Number
+              content: 3.0
+        - WithKey:
+            key:
+              type: String
+              content: hair_color
+            value:
+              type: Number
+              content: 3.0
+        - WithKey:
+            key:
+              type: String
+              content: hairstyle
+            value:
+              type: Number
+              content: 3.0
+        - WithKey:
+            key:
+              type: String
+              content: jumpsuit_style
+            value:
+              type: Number
+              content: 3.0
+        - WithKey:
+            key:
+              type: String
+              content: skin_tone
+            value:
+              type: Number
+              content: 3.0
+        - WithKey:
+            key:
+              type: String
+              content: socks
+            value:
+              type: Number
+              content: 3.0
+        - WithKey:
+            key:
+              type: String
+              content: undershirt
+            value:
+              type: Number
+              content: 3.0
+        - WithKey:
+            key:
+              type: String
+              content: underwear
+            value:
+              type: Number
+              content: 3.0
+        - WithKey:
+            key:
+              type: String
+              content: underwear_color
+            value:
+              type: Number
+              content: 3.0
+    real_name:
+      type: String
+      content: Sagittarius
+    religion_name:
+      type: String
+      content: Chaos
+    skin_tone:
+      type: String
+      content: latino
+    socks:
+      type: String
+      content: Nude
+    species:
+      type: String
+      content: moth
+    undershirt:
+      type: String
+      content: Shirt (Question)
+    underwear:
+      type: String
+      content: "Men's Kinky"
+    underwear_color:
+      type: String
+      content: "#b43974"
+    uplink_loc:
+      type: String
+      content: PDA
+    version:
+      type: Number
+      content: 42.0
+

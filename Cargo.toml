@@ -1,0 +1,14 @@
+[package]
+name = "dm-savefile"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+serde = { version = "1.0.142", features = ["derive"], optional = true }
+thiserror = "1.0.32"
+
+[dev-dependencies]
+insta = "1.17.1"
+
+[features]
+default = ["serde"]
